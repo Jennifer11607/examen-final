@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111111e0; /* Color de fondo para el body */
+    color: #fff; /* Color de texto predeterminado */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo del body para ocupar toda la pantalla */
+}
+
+.container-fluid.footer {
+    background-color: #111; /* Color de fondo para el footer */
+    padding-top: 30px; /* Espaciado superior */
+    padding-bottom: 30px; /* Espaciado inferior */
+    position: absolute;
+    bottom: 0; /* Fija el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.overlay-top {
+    top: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+.text-white {
+    color: #fff !important; /* Color de texto blanco */
+}
+
+.row {
+    margin-right: 0; /* Eliminar el margen derecho */
+    margin-left: 0; /* Eliminar el margen izquierdo */
+}
+
+.text-center {
+    text-align: center !important; /* Alinear texto al centro */
+}
+
+.border-top {
+    border-top: 1px solid rgba(256, 256, 256, 0.1) !important; /* Borde superior del footer */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important; /* Espaciado inferior grande */
+}
+
+/* Estilos específicos para los íconos de redes sociales */
+.btn-lg-square {
+    width: 50px; /* Ancho fijo para botones cuadrados */
+    height: 50px; /* Altura fija para botones cuadrados */
+    font-size: 1.5rem; /* Tamaño de fuente para íconos */
+    border-radius: 50%; /* Borde redondeado para botones */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el formulario de correo */
+.input-group {
+    width: 100%; /* Ancho completo para el grupo de entrada */
+}
+
+.form-control {
+    height: 50px; /* Altura del campo de entrada */
+}
+
+/* Estilos para el botón de enviar */
+.btn-primary {
+    height: 50px; /* Altura del botón de enviar */
+    font-weight: bold; /* Peso de la fuente */
+    padding: 0 20px; /* Relleno horizontal */
+}

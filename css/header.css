@@ -1,0 +1,44 @@
+/* Estilos personalizados para el navbar */
+.navbar {
+    background-color: #111; /* Color de fondo para el footer */
+    padding-top: 40px; /* Espaciado superior */
+    padding-bottom: 40px; /* Espaciado inferior */
+    position: absolute;
+    bottom: 0; /* Fija el footer en la parte inferior */
+    width: 100%; /* Ancho completo */ /* Color de fondo del navbar */
+    font-family: "Bebas Neue", sans-serif;
+    height: 2.5cm;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    font-size: 2rem; /* Tamaño de fuente para el título */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Alinear elementos a la derecha */
+}
+
+.nav-link {
+    color: rgb(255, 255, 255); /* Color de texto para los enlaces */
+    font-weight: bold; /* Peso de la fuente */
+    transition: color 0.5s ease; /* Transición suave para el cambio de color */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1cm;
+}
+
+.nav-link:hover {
+    color: #fff; /* Color de texto al pasar el cursor */
+}
+
+.navbar-toggler-icon {
+    color: rgba(255, 255, 255, 0.75); /* Color del icono del botón de navegación */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.75); /* Color del borde del botón de navegación */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Eliminar el contorno al hacer foco */
+}

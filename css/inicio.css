@@ -1,0 +1,105 @@
+body{
+    background-color: #424344;
+
+}
+/* seccion portafolio */
+.portafolio {
+    background-color: #424344;
+    color: aliceblue;
+    padding: 50px 20px;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+
+.portafolio .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portafolio h2 {
+    font-size: 48px;
+    font-family:  "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 0.5px;
+}
+.portafolio h3 {
+    font-size: 30px;
+    font-family:  "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    line-height: 1;
+}
+.portafolio h1 {
+    font-size: 55px;
+    font-family:  "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 0.5px;
+}
+
+/* Estilo CSS para eliminar interlineado entre h2 y h1 */
+h3,
+h1 {
+    margin: 0; /* Elimina el margen vertical */
+    line-height: 1; /* Opcional: ajusta la altura de línea al mínimo */
+}
+
+
+p {
+    font-size: 20px;
+    font-family:  "Bebas Neue", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1;
+    color: white;
+}
+
+.portafolio .contenido-seccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portafolio .contenido-seccion .proyecto {
+    position: relative;
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    max-width: 340px; /* Establece un máximo ancho */
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portafolio .contenido-seccion .proyecto img {
+    width: 100%; /* Ocupa el 100% del ancho disponible */
+    height: 250px; /* Establece una altura fija */
+    object-fit: cover; /* Mantiene la relación de aspecto sin distorsión */
+    border: solid 2px black;
+    box-shadow: 5px 5px 5px green;
+}
+
+.portafolio .contenido-seccion .proyecto .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(148, 61, 61, 0.8), rgba(47, 61, 162, 0.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+
+.portafolio .contenido-seccion .proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.portafolio .contenido-seccion .proyecto:hover .overlay h3 {
+    margin-bottom: 0px;
+}
+
+/* fin de portafolio */

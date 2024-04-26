@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+.h1 { 
+    text-align: center;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100%;
+}
+
+div.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 6px 20px 0 green;
+    width: 300px;
+    margin-left: 1cm;
+    overflow: hidden;
+}
+
+div.galeria .imagen {
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover {
+    border: 1px solid rgba(17, 215, 198, 0.803);
+    transform: scale(1.1);
+}
+
+div.pie {
+    text-align: center;
+    color: white;
+    padding: 25px;
+    background-color: rgba(14, 14, 15, 0.847);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 120%;
+}
+

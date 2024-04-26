@@ -1,0 +1,169 @@
+body{
+    background-color: #333333;
+    color: #ffffff;
+    text-align: justify;
+  }
+.bebas-neue-regular {
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.contenedorcuadro{
+  text-align: center;
+  margin-top: 20px;
+}
+.trescuadros{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+}
+.trescuadros:hover{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color: hsla(0, 0%, 100%, 0.237);
+  color: #ffffff;
+}
+.row{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.dosimagenes{
+    margin-top: 20px;
+    text-align: center;
+}
+.img-fluid{
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.img-fluid:hover {
+    transform: scale(0.95);
+}
+hr{
+    border: solid;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0
+}
+.cont{
+    text-align: center;
+}
+.acordion1{
+    background-image: url(../images/a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    padding-left: 30px;
+}
+.letrilla{
+    font-size: 70px;
+}
+.boton{
+    margin-right: 5px;
+}
+.acordion2{
+    background-image: url(../images/acordionB.jpg);
+    transition: transform 0.3s ease;
+}
+.acordion2:hover {
+    transform: scale(1.1);
+}
+.acordion3{
+    background-image: url(../images/acordionD.jpg);
+    transition: transform 0.3s ease;
+}
+.acordion3:hover {
+    transform: scale(1.1);
+}
+.acordion4{
+    background-image: url(../images/acordionC.jpg);
+    transition: transform 0.3s ease;
+}
+.acordion4:hover {
+    transform: scale(1.1);
+}
+.acordion5{
+    background-image: url(../images/acordionE.jpg);
+    transition: transform 0.3s ease;
+}
+.acordion5:hover {
+    transform: scale(1.1);
+}
+.logincontenedor{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+.butom{
+    text-align: center;
+}
+.formulario{
+    text-align: left;
+}
+.precio{
+    text-align: right;
+    padding-right: 10px;
+}
+.letrasfinal{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.iconoscod{
+    border: 1px solid black;
+    position: fixed;
+    padding-bottom: 20px;
+}
+.iconocod{
+    text-align: center;
+    border: none;
+    background-color: #ccc;
+}
+.icon-fin{
+    text-align: center;
+}
+
+
+
+/* css footer */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111111e0; /* Color de fondo para el body */
+    color: #fff; /* Color de texto predeterminado */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo del body para ocupar toda la pantalla */
+}
+
+.container-fluid.footer {
+    background-color: #111; /* Color de fondo para el footer */
+    padding-top: 30px; /* Espaciado superior */
+    padding-bottom: 30px; /* Espaciado inferior */
+    position: absolute;
+    bottom: 0; /* Fija el footer en la parte inferior */
+    width: 100%; /* Ancho completo */
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.overlay-top {
+    top: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+.text-white {
+    color: #fff !important; /* Color de texto blanco */
+}
+
+.row {
+    margin-right: 0; /* Eliminar el margen derecho */
+    margin-left: 0; /* Eliminar el margen izquierdo */
+}

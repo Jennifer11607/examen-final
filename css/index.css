@@ -1,0 +1,21 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* css carrousel */
+.carousel-caption {
+    background-color: rgba(47, 49, 51, 0.527); /* Color de fondo transparente */
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal; /* Cambiar la fuente a Arial */
+    text-align: center; /* Centrar el texto */
+    position: absolute; /* Posicionamiento absoluto */
+    
+    transform: translateY(-140%); /* Centrar verticalmente */
+ 
+    
+}
+
+/* finaliza carrousel */
